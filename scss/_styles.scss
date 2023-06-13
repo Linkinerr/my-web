@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-image: linear-gradient(#24252A, black);
+}
+.navbar {
+  grid-area: navbar;
+  background-color: #fff685;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #243b50;
+  transition: 0.3s;
+}
+.a {
+  color: whitesmoke;
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  font-size: larger;
+  margin: 12px;
+}
+.montserrat {
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  background-color: #fff685;
+}
+// uso de mixin ejemplo en el footer
+.footer {
+  @include footer
+}
+
+.Formulario {
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/901.jpg);
+  color: #f5f6f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+h1, p {
+  font-family: 'RobotoSlab-Regular.ttf' sans-serif;
+
+  text-align: center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.lista {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin: 12px;
+  font-size: x-large;
+}
+.agua {
+  color: #e5eaf5;
+  font-size: large;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.img-1 {
+  width: 20%;
+  margin-left: 190px;
+}
+.parrafo {
+  margin-top: 35px;
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  color: whitesmoke;
+  transition-duration: 550ms;
+}
+.parrafo:hover {
+  background-color: #341948;
+}
+.mainn {
+  background-color: #341948;
+}
+.h22 {
+  background-color: #a0d2eb;
+  font-family: "Montserrat-Regular.ttf", sans-serif;
+  color: #f5f6f7;
+}
+.parrafo2 {
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  margin: 0;
+  color: whitesmoke;
+}
+.img-2 { 
+  width: 20%;
+  margin-left: 190px;
+}
+.productos {
+  font-family: "Montserrat-Black.otf", sans-serif;
+  background-image: linear-gradient(#24252A, black);
+  margin: 0;
+  color: aquamarine;
+}
+.lista2 {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin: 12px;
+  font-size: x-large;
+}
+.in-flex1 {
+  background-color: #a0d2eb;
+  text-align: end;
+  height: 95px;
+  padding: 30px 10%;
+  background-image: linear-gradient(#24252A, black);
+  opacity: 86%;
+  flex-direction: column;
+}
+.box {
+  width: 100px;
+  color: pink;
+  font-family: "Montserrat-Black.otf", sans-serif;
+  font-size: small;
+  transition-property: width;
+  transition-duration: 2s;
+}
+.salud {
+  width: 4vw;
+}
+.img-3 {
+  width: 20%;
+  margin-left: 190px;
+}
+.box:hover {
+  width: 1518px;
+  background-image: linear-gradient(#24252A, black);
+}
+.col {
+  list-style: none;
+  margin: 0px;
+}
+.hijo {
+  background-color: #243b50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: #e5eaf5;
+}
+.h22 {
+  background-color: grey;
+  color: #845883;
+  font-size: smaller;
+  font-family: "RobotoSlab-Regular.ttf";
+}
+/* RESPONSIVE */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+.in-flex {
+  flex: 1;
+  min-width: 250px;
+  font-family: "Montserrat-Black.otf", sans-serif;
+  font-size: larger;
+  flex-direction: column;
+  background-image: linear-gradient(#24252A, black);
+}
+.in-flex:first-child {
+  flex: 2;
+  padding: 25;
+  background-image: linear-gradient(#24252A, black);
+  margin: 20px;
+  margin-bottom: 0px;
+  font-family: "Montserrat-Black.otf", sans-serif;
+  color: #845883;
+}
+.in-flex div {
+  flex: 1;
+  padding: 25;
+  background-image: linear-gradient(#24252A, black);
+  color: #845883;
+  margin: 20px;
+  font-family: "Montserrat-Black.otf", sans-serif;
+}
+/* RESPONSIVE */
+.pb {
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/314/303/desktop-wallpaper-incredible-elegant-black-and-grey-backgrounds-with-html-page-dark-grey-background.jpg);
+  margin: 0;
+  display: block;
+  font-family: "Montserrat-Black.otf", sans-serif;
+  color: #845883;
+}
+/* UTILIZANDO GRID */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+.header {
+  grid-area: header;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+.navbar {
+  grid-area: navbar;
+  background-image: linear-gradient(#24252A, black);
+  font-family: Arial, Helvetica, sans-serif;
+  color: wheat;
+}
+.main {
+  grid-area: main;
+  background-image: linear-gradient(#24252A, black);
+  color: wheat;
+}
+.footer {
+  grid-area: footer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template: "header" 120px "navbar" 50px "main" auto "sidebar" 100px "footer" 100px;
+}
+@media (min-width: 600px) {
+  .grid-container {
+    /* grid-template-columns: 200px auto;
+    grid-template-rows: 100px 50px auto 100px;
+    grid-template-areas: 
+    "header  header"
+    "navbar  navbar"
+     main"
+    "footer  footer"; */
+    grid-template: "header  header" 50px "navbar  navbar" 40px "main     main" auto "footer  footer" 100px / 200px auto;
+  }
+}
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template: "header  header header" 100px "navbar  main   main" auto "footer  footer footer" 100px / 200px auto 200px;
+  }
+}

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,8 +10,6 @@ html {
   height: 100%;
 }
 
-
-
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.2rem;
@@ -19,19 +17,10 @@ body {
   background-image: linear-gradient(#24252A, black);
 }
 
-
-
 .navbar {
   grid-area: navbar;
   background-color: #fff685;
 }
-
-.main {
-  grid-area: mainn;
-  background-color: blueviolet;
-}
-
-
 
 nav ul li {
   list-style-type: none;
@@ -72,35 +61,16 @@ nav ul li a:hover {
   height: 200px;
 }
 
-
-
-.h2 {
-  color: #e5eaf5;
-  font-family: "RobotoSlab-Regular.ttf";
- 
-}
-
-.h3 {
-  font-family: "RobotoSlab-Regular.ttf";
-  font-size: larger;
-}
-.h3,
-h6 {
-  position: relative;
-}
-
 .Formulario {
-  background-color: #243b50;
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/901.jpg);
   color: #f5f6f7;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-h1,
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  box-shadow: #50afff;
+h1, p {
+  font-family: "RobotoSlab-Regular.ttf" sans-serif;
   text-align: center;
 }
 
@@ -126,31 +96,30 @@ form {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 .logo {
   width: 60px;
   height: 60px;
 }
 
 .img-1 {
-  margin-right: 15px;
+  width: 20%;
+  margin-left: 190px;
 }
 
 .parrafo {
   margin-top: 35px;
-  margin-left: 15px;
   font-family: "RobotoSlab-Regular.ttf", cursive;
-  
+  color: whitesmoke;
+  transition-duration: 550ms;
 }
 
-.conteinerr {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  
+.parrafo:hover {
+  background-color: #341948;
 }
 
 .mainn {
-  background-color: grey;
+  background-color: #341948;
 }
 
 .h22 {
@@ -160,21 +129,14 @@ form {
 }
 
 .parrafo2 {
-  background-color: grey;
   font-family: "RobotoSlab-Regular.ttf", cursive;
   margin: 0;
+  color: whitesmoke;
 }
 
 .img-2 {
-  background-color: grey;
-}
-
-.nav2 {
-  font-family: "Montserrat-Black.otf", sans-serif;
-  display: flex;
-  text-align: start;
-  font-size: larger;
-  background-image: linear-gradient(#24252A, black);
+  width: 20%;
+  margin-left: 190px;
 }
 
 .productos {
@@ -192,17 +154,38 @@ form {
   font-size: x-large;
 }
 
-.hero {
+.in-flex1 {
   background-color: #a0d2eb;
   text-align: end;
-    height: 95px;
-  
- padding: 30px 10%;
-    background-image: linear-gradient(#24252A, black);
-    opacity: 86%;
-    text-align: end;
-  }
-  
+  height: 95px;
+  padding: 30px 10%;
+  background-image: linear-gradient(#24252A, black);
+  opacity: 86%;
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  color: pink;
+  font-family: "Montserrat-Black.otf", sans-serif;
+  font-size: small;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.salud {
+  width: 4vw;
+}
+
+.img-3 {
+  width: 20%;
+  margin-left: 190px;
+}
+
+.box:hover {
+  width: 1518px;
+  background-image: linear-gradient(#24252A, black);
+}
 
 .col {
   list-style: none;
@@ -211,18 +194,17 @@ form {
 
 .hijo {
   background-color: #243b50;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
-color: #e5eaf5;
+  color: #e5eaf5;
 }
 
 .h22 {
   background-color: grey;
-  color:#845883;
+  color: #845883;
   font-size: smaller;
   font-family: "RobotoSlab-Regular.ttf";
 }
-
 
 /* RESPONSIVE */
 .home {
@@ -235,6 +217,7 @@ color: #e5eaf5;
   min-width: 250px;
   font-family: "Montserrat-Black.otf", sans-serif;
   font-size: larger;
+  flex-direction: column;
   background-image: linear-gradient(#24252A, black);
 }
 
@@ -245,33 +228,27 @@ color: #e5eaf5;
   margin: 20px;
   margin-bottom: 0px;
   font-family: "Montserrat-Black.otf", sans-serif;
-  color:#845883;
+  color: #845883;
 }
 
 .in-flex div {
   flex: 1;
   padding: 25;
   background-image: linear-gradient(#24252A, black);
-  color:#845883;
+  color: #845883;
   margin: 20px;
   font-family: "Montserrat-Black.otf", sans-serif;
 }
 
 /* RESPONSIVE */
-
 .pb {
-  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/314/303/desktop-wallpaper-incredible-elegant-black-and-grey-backgrounds-with-html-page-dark-grey-background.jpg);
   margin: 0;
   display: block;
   font-family: "Montserrat-Black.otf", sans-serif;
-  color:#845883;
-
+  color: white;
 }
 
 /* UTILIZANDO GRID */
-
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -299,7 +276,6 @@ body {
   grid-area: header;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
-  
 }
 
 .navbar {
@@ -307,34 +283,22 @@ body {
   background-image: linear-gradient(#24252A, black);
   font-family: Arial, Helvetica, sans-serif;
   color: wheat;
- 
 }
-
-
 
 .main {
   grid-area: main;
   background-image: linear-gradient(#24252A, black);
   color: wheat;
-  
 }
 
 .footer {
   grid-area: footer;
   font-family: Arial, Helvetica, sans-serif;
-  
-
 }
 
 .grid-container {
   display: grid;
- 
-  grid-template:
-    "header"  120px
-    "navbar"  50px
-    "main"    auto
-    "sidebar" 100px
-    "footer"  100px;
+  grid-template: "header" 120px "navbar" 50px "main" auto "sidebar" 100px "footer" 100px;
 }
 
 @media (min-width: 600px) {
@@ -346,22 +310,13 @@ body {
     "navbar  navbar"
      main"
     "footer  footer"; */
-
-    grid-template:
-      "header  header" 50px
-      "navbar  navbar" 40px
-      "main     main"   auto
-      "footer  footer" 100px /
-      200px    auto;
+    grid-template: "header  header" 50px "navbar  navbar" 40px "main     main" auto "footer  footer" 100px/200px auto;
   }
 }
-
 @media (min-width: 900px) {
   .grid-container {
-    grid-template:
-      "header  header header"  100px
-      "navbar  main   main" auto
-      "footer  footer footer"  100px /
-      200px    auto   200px;
+    grid-template: "header  header header" 100px "navbar  main   main" auto "footer  footer footer" 100px/200px auto 200px;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
