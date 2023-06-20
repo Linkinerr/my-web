@@ -11,25 +11,32 @@ html {
 }
 
 body {
-  font-family: "Public Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   min-height: 100%;
   background-image: linear-gradient(#24252A, black);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 20px;
 }
+
 
 .navbar {
   grid-area: navbar;
   background-color: #fff685;
+
 }
 
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
+
 }
 
 nav ul li a {
-  color: white;
+ 
   text-decoration: none;
   font-weight: bold;
 }
@@ -46,23 +53,21 @@ nav ul li a:hover {
   margin: 12px;
 }
 
-.montserrat {
-  font-family: "RobotoSlab-Regular.ttf", cursive;
-  background-color: #fff685;
-}
+
 
 .footer {
   padding: 55px;
   display: block;
   color: white;
-  background-color: black;
+  background-color: #176585;
   margin: 0;
   width: 100%;
   height: 200px;
 }
 
 .Formulario {
-  background-image: url(https://wallpapershome.com/images/pages/pic_h/901.jpg);
+  background-color: white;
+  
   color: #f5f6f7;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -104,31 +109,31 @@ form {
 
 .img-1 {
   width: 20%;
-  margin-left: 190px;
+  
+ 
 }
+
 
 .parrafo {
   margin-top: 35px;
-  font-family: "RobotoSlab-Regular.ttf", cursive;
-  color: whitesmoke;
-  transition-duration: 550ms;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #176585;
+  margin: 0;
+  font-size: xx-large;
+ 
 }
 
-.parrafo:hover {
-  background-color: #341948;
-}
 
-.mainn {
-  background-color: #341948;
-}
 
 .h22 {
-  background-color: #a0d2eb;
-  font-family: "Montserrat-Regular.ttf", sans-serif;
-  color: #f5f6f7;
+  background-color: #f7f3cf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #176585;
+  margin: 0;
 }
 
-.parrafo2 {
+parrafo2 {
   font-family: "RobotoSlab-Regular.ttf", cursive;
   margin: 0;
   color: whitesmoke;
@@ -136,7 +141,7 @@ form {
 
 .img-2 {
   width: 20%;
-  margin-left: 190px;
+
 }
 
 .productos {
@@ -192,54 +197,127 @@ form {
   margin: 0px;
 }
 
+img-5 {
+  width: 100px;
+}
 .hijo {
-  background-color: #243b50;
+  
   font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  color: #e5eaf5;
+  
+  color: lightcoral;
 }
 
-.h22 {
-  background-color: grey;
-  color: #845883;
-  font-size: smaller;
-  font-family: "RobotoSlab-Regular.ttf";
+/* MENU HAMBURGUER MODIFICADO */
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+/* Formulario Practicado en freecodecamp */
+
+Formularioh1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
 }
 
 /* RESPONSIVE */
 .home {
   display: flex;
   flex-wrap: wrap;
+  background-color: #c2e4cb;
 }
 
 .in-flex {
-  flex: 1;
-  min-width: 250px;
+
   font-family: "Montserrat-Black.otf", sans-serif;
   font-size: larger;
   flex-direction: column;
-  background-image: linear-gradient(#24252A, black);
+ 
+}
+
+.conteinerr {
+  background-color: #27b1bf;
+  margin: 0;
 }
 
 .in-flex:first-child {
   flex: 2;
   padding: 25;
-  background-image: linear-gradient(#24252A, black);
+  background-color: #36cecc;
   margin: 20px;
   margin-bottom: 0px;
-  font-family: "Montserrat-Black.otf", sans-serif;
-  color: #845883;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .in-flex div {
   flex: 1;
   padding: 25;
-  background-image: linear-gradient(#24252A, black);
-  color: #845883;
-  margin: 20px;
-  font-family: "Montserrat-Black.otf", sans-serif;
-}
 
+  color: white;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* RESPONSIVE */
 .pb {
   margin: 0;
@@ -282,13 +360,13 @@ body {
   grid-area: navbar;
   background-image: linear-gradient(#24252A, black);
   font-family: Arial, Helvetica, sans-serif;
-  color: wheat;
+  color: lightcoral;
 }
 
 .main {
   grid-area: main;
   background-image: linear-gradient(#24252A, black);
-  color: wheat;
+  color: #15658f;
 }
 
 .footer {
